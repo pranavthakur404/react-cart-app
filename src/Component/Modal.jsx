@@ -1,5 +1,5 @@
 import { createPortal } from "react-dom";
-import styles from "../component_css/modal.module.css";
+import styles from "../component_css/Modal.module.css";
 
 function Modal({ children, setIsModalOpen }) {
   return createPortal(
