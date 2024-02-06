@@ -1,0 +1,11 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+}
+
+/* @media only screen and (max-width: 1017px) {
+  .products {
+    gap: 85px;
+  }
+} */

@@ -1,0 +1,30 @@
+.backdrop {
+  position: fixed;
+  background-color: rgba(50, 50, 50, 0.5);
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+}
+.container {
+  max-width: 100%;
+  width: 800px;
+  height: 500px;
+  background-color: #fff;
+  color: #000;
+  position: fixed;
+  z-index: 2;
+  left: 50%;
+  top: 5%;
+  transform: translateX(-50%);
+  overflow-y: auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+@media only screen and (max-width:767px){
+  .container{
+    width: 95%;
+    margin: 0 auto;
+  }
+}

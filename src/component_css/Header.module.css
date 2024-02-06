@@ -1,0 +1,41 @@
+.header {
+  width: 100%;
+  background-color: #3879a5;
+}
+.container {
+  height: 76px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-inline: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.cartButton {
+  background: none;
+  border: none;
+  color: #fff;
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.cartNumber {
+  position: absolute;
+  top: -14px;
+  background: red;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  font-size: 18px;
+}

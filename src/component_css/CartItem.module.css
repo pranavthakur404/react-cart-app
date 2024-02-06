@@ -1,0 +1,55 @@
+.CartItem {
+  width: 100%;
+  padding: 5px;
+  border-bottom: 1px solid silver;
+  margin-bottom: 10px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  text-align: center;
+}
+.img {
+  width: 100px;
+  border-radius: 100%;
+}
+.CartItem button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.title {
+  font-size: 0.8rem;
+  font-weight: 900;
+}
+.deleteIcon {
+  font-size: 1.6rem;
+}
+.quantityContainer {
+  display: flex;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 400px) {
+  .img {
+    width: 66px;
+    border-radius: 100%;
+  }
+  .deleteIcon {
+    font-size: 1.2rem;
+  }
+  .price {
+    font-size: 0.8rem;
+  }
+  .quantityContainer {
+    display: flex;
+    gap: 8px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .title {
+    font-size: 0.7rem;
+  }
+}
